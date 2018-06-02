@@ -5,6 +5,9 @@
         background-color:black;
         color:gray;
     }
+    #body1{
+      background: linear-gradient(to right, rgba(35,137,218,0.8) , rgba(34,139,34,0.8),rgba(112, 140, 152, 0.8));
+    }
 </style>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,12 +17,12 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.min.js"></script>
 
 </script>
-<body>
+<body id="body1">
     <!--Jumbotron Header-->
     <div class="container">
         <div class="jumbotron">
-            <h1>Title</h1>
-            <p>Explanation</p>
+            <h1>Nature Plight</h1>
+            <p>Pollutions or human actions is the process of making land, water, air or other parts of the environment dirty and not safe or suitable to use. </p>
         </div>
     </div>
 
@@ -27,21 +30,21 @@
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
-            <a class="navbar-brand" href="#">WebSiteName</a>
+            <a class="navbar-brand" href="#">GoGreen</a>
             </div>
                 <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">Page 1</a></li>
-                <li><a href="#">Page 2</a></li>
-                <li><a href="#">Page 3</a></li>
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="water.html">Water Pollution</a></li>
+                <li><a href="forest.html">Deforestation</a></li>
+                <li><a href="air.html">Air Pollution</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
             </ul>
         </div>
     </nav>
 
 
 
-<div class="container">
-  <h2>Carousel Example</h2>  
+<div class="container"> 
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -53,15 +56,15 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="item active">
-        <img src="test1.jpg" alt="Los Angeles" style="width:100%;">
+        <img src="http://www.indiacelebrating.com/wp-content/uploads/Water-Pollution.jpg" alt="Water Pollution" style="height:815px;",>
       </div>
 
       <div class="item">
-        <img src="test2.jpg" alt="Chicago" style="width:100%;">
+        <img src="http://www.indiacelebrating.com/wp-content/uploads/reasons-and-causes-of-deforestation.jpg" alt="Deforestation" style="height:815px;">
       </div>
     
       <div class="item">
-        <img src="test3.jpg" alt="New york" style="width:100%;">
+        <img src="https://greentumble.com/wp-content/uploads/2015/07/Air-pollution-causes-and-effects.jpg" alt="Air Pollution" style="height:815px;">
       </div>
     </div>
 
@@ -77,14 +80,16 @@
   </div>
 </div>
 <div id="describe">
-    <p> This is just a sample text<p>
-    <p> This is just a sample text<p>
-    <p> This is just a sample text<p>
-    <p> This is just a sample text<p>
-    <p> This is just a sample text<p>
-
+    <div class="row">
+    <br><div class="col-sm-4" style="background-color:skyblue;">The first page is about how water pollution affect us, the environment and the sea animals that lives there.</div>
+    <div class="col-sm-4" style="background-color:lightgreen;">The second page is about how cutting down trees will affect our health in a negative way, it also cause animals to lose their home.</div>
+    <div class="col-sm-4" style="background-color:lightgray;">The third page is about how air pollution is a big problem to our society because many people over millions of them died because of the pollution.</div>
+  </div>
 </div>
 
+
+
+</div>
 
 </body>    
 </html>
